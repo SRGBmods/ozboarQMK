@@ -72,10 +72,10 @@
             "riverflow":                 true
         },
         "default": {
-            "animation": "rainbow_moving_chevron"
+            "animation": "rainbow_moving_chevron",
+            "on": true
         },
-        "driver":      "ws2812",
-        "sleep":           true,
+        "sleep":           false,
         "timeout":         3000
     },
     "layouts": {

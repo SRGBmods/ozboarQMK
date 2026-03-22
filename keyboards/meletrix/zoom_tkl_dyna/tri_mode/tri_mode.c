@@ -3,8 +3,8 @@
 #include "quantum.h"
 
 // #ifdef RGB_MATRIX_ENABLE
-    #define LED_FLAG_UNDERGLOW 0x02
-    #define LED_FLAG_INDICATOR 0x08
+    // #define LED_FLAG_UNDERGLOW 0x02
+    // #define LED_FLAG_INDICATOR 0x08
     led_config_t g_led_config = {
     // Key Matrix to LED Index
     {
@@ -27,9 +27,9 @@
         {   3, 64 }, {  23, 64 }, {  36, 64 }, {  66, 64 }, {  92, 64 }, { 119, 64 }, { 148, 64 }, { 165, 64 }, { 184, 64 }, { 198, 64 }, { 211, 64 }, { 224, 64 },
         // 3 Accent LEDs
         // { 216, 32 }, { 220, 32 }, { 224, 32 }, // Pysical spacing.
-        {   0, 32 }, { 112, 32 }, { 224, 32 }, // Configuration with a more wide area.
+        // {   0, 32 }, { 112, 32 }, { 224, 32 }, // Configuration with a more wide area.
         // Backlights
-        {   0,  0 }, {  28,  8 }, {  56, 16 }, {  84, 24 }, { 112, 32 }, // Top left to center configuration diagonal.
+        // {   0,  0 }, {  28,  8 }, {  56, 16 }, {  84, 24 }, { 112, 32 }, // Top left to center configuration diagonal.
     },
     // LED Index to Flag
     {
@@ -39,7 +39,7 @@
         4,     4,     4,     4,     4,     4,     4,     4,     4,     4,     4,     4,     4,     4,     4,     4,
         4,     4,     4,     4,     4,     4,     4,     4,     4,     4,     4,     4,     4,     4,     4,     4,
         4,     4,     4,     4,                   4,     4,            4,            4,     4,     4,     4,     4,
-        LED_FLAG_INDICATOR, LED_FLAG_INDICATOR, LED_FLAG_INDICATOR,
-        LED_FLAG_UNDERGLOW, LED_FLAG_UNDERGLOW, LED_FLAG_UNDERGLOW, LED_FLAG_UNDERGLOW, LED_FLAG_UNDERGLOW
+        // 8, 8, 8,
+        // 2, 2, 2, 2, 2
     } };
 // #endif
